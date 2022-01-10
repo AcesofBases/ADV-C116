@@ -1,0 +1,34 @@
+canvas{
+    border-width: 5px;
+    animation-name:color2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes color2{
+    0%{
+        border-color: deeppink;
+        
+        box-shadow: -1px -1px 38px red;
+        border-style: solid;
+    
+    }
+    50%{
+       
+        border-color:rgb(27, 207, 27);
+        
+        box-shadow: 1px 1px 38px blue;
+         border-style: groove;
+    }
+    100%{
+        border-color: deeppink;
+       
+        box-shadow: -1px -1px 38px red;
+        border-style: solid;
+    }
+    }
+    #screenshot{
+        margin-top: 100px;
+        width:100;
+        height: 50px;
+        
+    }
